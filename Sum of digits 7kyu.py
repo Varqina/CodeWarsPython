@@ -19,3 +19,4 @@ def get_sum_best_practice(a,b):
 print(get_sum(1,5))
 
 print(get_sum_best_practice(1,5))
+#EnvTest

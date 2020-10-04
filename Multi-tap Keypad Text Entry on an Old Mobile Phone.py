@@ -29,5 +29,11 @@ For this assignment, write a module that can calculate the amount of button pres
 Hint: While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
 
 """
+from urllib3.connectionpool import xrange
+
 
 def presses(phrase):
+
+    characterListTab=[]
+    for letter in phrase:
+        characterListTab.append((ord(letter))-64)

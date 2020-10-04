@@ -35,4 +35,4 @@ from urllib3.connectionpool import xrange
 def presses(phrase):
     phrase=phrase.upper()
     for letter in phrase:
-        (ord(letter))-64
+        (ord(letter))-65

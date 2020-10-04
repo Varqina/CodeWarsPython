@@ -37,3 +37,23 @@ def presses(phrase):
     result=0
     for letter in phrase:
         value = (ord(letter))-64
+        if value == -16:#vale = -16 is 0
+            result = result + 2
+            continue
+        if value < -18:#value -32 is space
+            result = result + 1
+            continue
+        if value == 19 or value == 26:
+            result=result+4
+            continue
+        if value < 19:
+            while value >3:
+                value = value-3
+            result=result + value
+            continue
+        while value > 3:
+            value =value -4
+        result = result + value + 1
+    return result
+
+print(presses("lol"))

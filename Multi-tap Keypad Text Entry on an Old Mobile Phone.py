@@ -51,9 +51,9 @@ def presses(phrase):
                 value = value-3
             result=result + value
             continue
-        while value > 3:
+        while value >= 3:
             value =value -4
         result = result + value + 1
     return result
 
-print(presses("lol"))
+print(presses("HOW R U"))

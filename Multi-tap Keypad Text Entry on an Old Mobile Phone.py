@@ -51,9 +51,11 @@ def presses(phrase):
                 value = value-3
             result=result + value
             continue
-        while value >= 3:
-            value =value -4
-        result = result + value + 1
+        value=value-19# -19 to have one for T with value 20 ASCI
+        if value > 3:
+            value = value - 3
+        result = result + value
+
     return result
 
 print(presses("HOW R U"))

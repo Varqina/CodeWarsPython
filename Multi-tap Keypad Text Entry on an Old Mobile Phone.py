@@ -28,6 +28,7 @@ For this assignment, write a module that can calculate the amount of button pres
 
 Hint: While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
 
+Code wars url to provide solution https://www.codewars.com/kata/54a2e93b22d236498400134b/train/python
 """
 from urllib3.connectionpool import xrange
 

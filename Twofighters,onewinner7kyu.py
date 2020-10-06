@@ -6,4 +6,11 @@ Each fighter takes turns attacking the other and whoever kills the other first i
 Each fighter will be a Fighter object/instance. See the Fighter class below in your chosen language.
 
 Both health and damagePerAttack (damage_per_attack for python) will be integers larger than 0. You can mutate the Fighter objects.
+https://www.codewars.com/kata/577bd8d4ae2807c64b00045b/train/python
+
 """
+
+
+def declare_winner(fighter1, fighter2, first_attacker):
+    # Code your solution here
+    pass

@@ -8,16 +8,15 @@ Your task is to convert strings to how they would be written by Jaden Smith. The
 
 
 def to_jaden_case(string):
-
+    jadeString = string[0].capitalize()
     #If space make next character capital
-
-
-    stringg="aaaa"
-    tab=[]
-    tab.append(stringg)
-    print(string[0])
-    print()
+    for number in range(len(string)):
+        if string[number] == " " and number < len(string)-1:
+            jadeString += " "
+            jadeString += string[number+1]
+            number += 1
+        else:
+            jadeString += string[number]
     return jadeString
 
-to_jaden_case("cycki")
-print(" ".capitalize())
+print(to_jaden_case("a A sssssssss"))

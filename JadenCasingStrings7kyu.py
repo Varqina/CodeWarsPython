@@ -8,7 +8,20 @@ Your task is to convert strings to how they would be written by Jaden Smith. The
 
 
 def to_jaden_case(string):
+
+    #First character make capital
+    if string[0] == " ":
+        jadeString = " "
+    else:
+        jadeString = string[0].capitalize()
+    #If space make next character capital
+
+
+    stringg="aaaa"
+    tab=[]
+    tab.append(stringg)
     print(string[0])
+    print()
+    return jadeString
 
-
-
+to_jaden_case("cycki")
